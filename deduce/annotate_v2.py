@@ -518,7 +518,7 @@ def annotate_postalcode(text):
 
 def annotate_address(text):
     """ Annotate addresses """
-    text = re.sub(r"([A-Z]\w+(straat|laan|hof|plein|plantsoen|gracht|kade|weg|steeg|steeg|pad|dijk|baan|dam|dreef|kade|markt|park|plantsoen|singel|bolwerk|oord|waard)[\s\n\r]*((\d+){1,6}(\w{0,2}){0,1}|(\d+){0,6}))",
+    text = re.sub(r"([A-Z]\w+(straat|laan|hof|plein|plantsoen|gracht|kade|weg|steeg|steeg|pad|dijk|baan|dam|dreef|kade|markt|park|plantsoen|singel|bolwerk)[\s\n\r]*((\d+){1,6}(\w{0,2}){0,1}|(\d+){0,6}))",
                   "<LOCATIE \\1>",
                   text)
 
