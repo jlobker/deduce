@@ -45,13 +45,6 @@ def annotate_names(text, patient_first_names, patient_initial, patient_surname, 
             # Voornamen
             for patient_first_name in str(patient_first_names).split(" "):
 
-                # Check if the initials match
-                if token == patient_first_name[0]:
-                    if next_token == "":
-                        tokens_deid.append("<INITIAALPAT {}> ".format(token))
-                    else:
-                        tokens_deid.append(token)
-
                     # Break the first names loop
                     found = True
                     break
