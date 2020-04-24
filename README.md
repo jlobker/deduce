@@ -1,5 +1,7 @@
 # Deduce: de-identification method for Dutch medical text
 
+For my intership during my MA Digital Humanities, I optimised the code of the DEDUCE method of Vincent Menger. All information on this method can be found below.
+
 This project contains the code for DEDUCE: de-identification method for Dutch medical text as described in [Menger et al (2017)](http://www.sciencedirect.com/science/article/pii/S0736585316307365). De-identification of medical text is needed for using text data for analysis, to comply with legal requirements and to protect the privacy of patients. Our pattern matching based method removes Protected Health Information (PHI) in the following categories:
 
 1. Person names, including initials
